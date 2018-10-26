@@ -106,8 +106,17 @@ This command allows you to enter a running container's namespaces with a new pro
 
 3. Open a new terminal. To open a new terminal connected to node1 by using Play-With-Docker.com, click `Add New Instance` on the left and then ssh from node2 into node1 by using the IP that is listed by node1, for example:
 
+4. In the new terminal, get the ID of the running container that you just created:
 
+```
+docker container ls 
+ ```
+5. Use that container ID to run bash inside that container by using the docker container exec command. Because you are using bash and want to interact with this container from your terminal, use the -it flag to run using interactive mode while allocating a psuedo-terminal:
 
+```
+ docker container exec -it b3ad2a23fab3 bash 
+root@b3ad2a23fab3:/#
+```
 
  
 
