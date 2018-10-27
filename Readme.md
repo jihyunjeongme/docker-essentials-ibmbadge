@@ -118,6 +118,8 @@ docker container ls
 root@b3ad2a23fab3:/#
 ```
 
+6. 
+
  
 
 
