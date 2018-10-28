@@ -118,7 +118,7 @@ docker container ls
 root@b3ad2a23fab3:/#
 ```
 
-6. 
+6. From the same terminal, inspect the running processes:
 
  
 
