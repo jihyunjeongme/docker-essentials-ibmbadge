@@ -120,7 +120,11 @@ root@b3ad2a23fab3:/#
 
 6. From the same terminal, inspect the running processes:
 
- 
+```
+ps -ef
+```
+
+![](https://courses.cognitiveclass.ai/asset-v1:IBMDeveloperSkillsNetwork+CO0101EN+v1+type@asset+block/lab1_step1_3b.png)
 
 
 <!-- * LivePreview - Make changes, See changes
