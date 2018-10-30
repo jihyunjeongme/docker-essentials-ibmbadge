@@ -126,6 +126,7 @@ ps -ef
 
 ![](https://courses.cognitiveclass.ai/asset-v1:IBMDeveloperSkillsNetwork+CO0101EN+v1+type@asset+block/lab1_step1_3b.png)
 
+7. here  22s
 
 <!-- * LivePreview - Make changes, See changes
   - Instantly see what your Markdown documents look like in HTML as you create them.
