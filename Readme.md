@@ -126,7 +126,15 @@ ps -ef
 
 ![](https://courses.cognitiveclass.ai/asset-v1:IBMDeveloperSkillsNetwork+CO0101EN+v1+type@asset+block/lab1_step1_3b.png)
 
-7. here  22s
+7. For comparison, exit the container and run ps -ef or top on the host. These commands will work on Linux or Mac. For Windows, you can inspect the running processes by using tasklist.
+
+```
+root@b3ad2a23fab3:/# exit 
+exit
+$ ps -ef
+# Lots of processes!
+```
+
 
 <!-- * LivePreview - Make changes, See changes
   - Instantly see what your Markdown documents look like in HTML as you create them.
